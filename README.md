@@ -1,6 +1,6 @@
-## UltimateOneClickCobal 13B_LLM:
+## UltimateOneClickColab 13B_LLM:  
 
-This repository contains a Colab notebook that allows you to run Language Model (LLM) models with just one click. The notebook provides hundreds of pre-trained LLM models with a friendly interface.
+This repository contains a Colab notebook  that allows you to run Language Model (LLM) models with just one click. The notebook provides hundreds of pre-trained LLM models with a friendly interface.
 
 For now, I added 111 models, Quantized gmml_Q5_K_m, but I'll try to add more soon.
 All the most famous models exist, such as:
@@ -12,6 +12,8 @@ All the most famous models exist, such as:
 - TheBloke/Chronos-Beluga-v2-13B-GGML
 - TheBloke/MythoMax-L2-13B-GGML
 - and much more.
+## Available notebooks :
+- UltimateOneClick LocalLLM 13B GGML Q5_K_M_(111_Models) => <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_UltimateOneClick_Colab/blob/main/UltimateOneClick_LocalLLM_13B_GGML_Q5_K_M_(111_Models).ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
 ## Features
 
 - One-click setup: The Colab notebook is designed to be easily set up with just one click. It automatically installs the required dependencies and downloads the necessary model files.
