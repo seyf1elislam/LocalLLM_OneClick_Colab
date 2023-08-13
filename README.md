@@ -18,7 +18,7 @@ All the most famous models exist, such as:
 
 - One-click setup: The Colab notebook is designed to be easily set up with just one click. It automatically installs the required dependencies and downloads the necessary model files.
 - More than 111 Pre-trained and finetuned 13b LLM models: The notebook includes various pre-trained and finetuned LLM models, including LLama2 13b chat, WizardLm1.2, and much more. It currently includes 13B LLM models (111 model GGML_Q5_K_M versions). Additionally, 13B GPTQ models will be added soon.
-- User interface: The notebook integrates with the [Text Generation WebUI](https://github.com/Troyanovsky/text-generation-webui) for a user-friendly interface to interact with the LLM models.
+- User interface: The notebook integrates with the [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui) for a user-friendly interface to interact with the LLM models.
 
 
 ## Getting Started
@@ -44,7 +44,7 @@ All  Models license belongs to the owners please follow the link of the Model re
 
 ### Special thanks to 
 - [TheBloke](https://huggingface.co/TheBloke) for their Quantized LLM models.
-- [text-generation-webui](https://github.com/Troyanovsky/text-generation-webui) for their Great Ui 
+- [text-generation-webui](https://github.com/oobabooga/text-generation-webui) for their Great Ui 
 - [Troyanovsky](https://github.com/Troyanovsky)
 
 # Models Source : 
