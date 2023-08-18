@@ -2,7 +2,7 @@
 
 This repository contains a Colab notebook  that allows you to run Language Model (LLM) models with just one click. The notebook provides hundreds of pre-trained LLM models with a friendly interface.
 
-For now, I added 111 models, Quantized gmml_Q5_K_m, but I'll try to add more soon.
+For now, I added 127 models Gmml 13b , but I'll  add more soon.
 All the most famous models exist, such as:
 - TheBloke/WizardLM-13B-V1.2-GGML
 - TheBloke/WizardLM-13B-V1.1-GGML
@@ -13,11 +13,13 @@ All the most famous models exist, such as:
 - TheBloke/MythoMax-L2-13B-GGML
 - and much more.
 ## Available notebooks :
-- UltimateOneClick LocalLLM 13B GGML Q5_K_M_(111_Models) => <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_UltimateOneClick_Colab/blob/main/UltimateOneClick_LocalLLM_13B_GGML_Q5_K_M_(111_Models).ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
+-(New - contains all quantizations of gmml) UltimateOneClick_LocalLLM_13B_GGML_(127_Models) => <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_UltimateOneClick_Colab/blob/main/UltimateOneClick_LocalLLM_13B_GGML_(127_Models).ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+-(old - contains only Gmml Q5_K_M versions) UltimateOneClick LocalLLM 13B GGML Q5_K_M_(111_Models) => <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_UltimateOneClick_Colab/blob/main/UltimateOneClick_LocalLLM_13B_GGML_Q5_K_M_(111_Models).ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
 ## Features
 
 - One-click setup: The Colab notebook is designed to be easily set up with just one click. It automatically installs the required dependencies and downloads the necessary model files.
-- More than 111 Pre-trained and finetuned 13b LLM models: The notebook includes various pre-trained and finetuned LLM models, including LLama2 13b chat, WizardLm1.2, and much more. It currently includes 13B LLM models (111 model GGML_Q5_K_M versions). Additionally, 13B GPTQ models will be added soon.
+- More than 127 Pre-trained and finetuned 13b LLM models: The notebook includes various pre-trained and finetuned LLM models, including LLama2 13b chat, WizardLm1.2, and much more. It currently includes 13B LLM models (127 model GGML all versions). Additionally, 13B GPTQ models will be added soon.
 - User interface: The notebook integrates with the [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui) for a user-friendly interface to interact with the LLM models.
 
 
@@ -26,9 +28,17 @@ All the most famous models exist, such as:
 To get started with the LLM Model Runner, follow these steps:
 
 1. Open the Colab notebook in Google Colab by clicking on the "Open in Colab" button at the top of the notebook.
-<a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_UltimateOneClick_Colab/blob/main/UltimateOneClick_LocalLLM_13B_GGML_Q5_K_M_(111_Models).ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
-2. Choose LLM model that u desire from the list (+110 13Bmodels).
-3. Run the Cell and Visit the Generated link and start you Conversation with your favorite model !
+<a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_UltimateOneClick_Colab/blob/main/UltimateOneClick_LocalLLM_13B_GGML_(127_Models).ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+2. Choose The 13b LLM model that you want from the list (+127 13Bmodels).
+
+![image](https://github.com/seyf1elislam/LocalLLM_UltimateOneClick_Colab/assets/40665383/ceb36323-380d-4868-90da-b1d735d07643)
+
+3.Choose quantization type:
+
+![image](https://github.com/seyf1elislam/LocalLLM_UltimateOneClick_Colab/assets/40665383/c1f9a784-1e62-4411-92fa-6c892388ed7c)
+
+
+4. Run the Cell and Visit the Generated link( https://***.gradio.live ) and start your Conversation with your favorite model !
 
 ## Requirements
 - no Requirement just open Colab in Gpu mode
@@ -38,7 +48,7 @@ All the necessary dependencies will be automatically installed when you run the 
 
 ## License
 
-All  Models license belongs to the owners please follow the link of the Model repo and read its license if u need.
+All  Models license belongs to thier owners please follow the link of the Model repo and read its license if u need.
 
 ## Thanks <3
 
