@@ -19,6 +19,9 @@ in colab gpu T4 (15Gvram) you can use :
 
 > if u dont have quantized version , you can use full precision  `7b` modeles with gptq notebook but make sure to  use flags  `--load-in-4bit` or `--load-in-8bit`  its slower then quantized versions but works well,so if u have quantized verions it will be better.
 
+> if u want a creative answers from ur model then increase the temp(0.9\~1.25) and decrease the minp(0.05\~0.1) ,
+> but when u need strict and accurate  answers decrease the temp(0.5\~0.7) and increase the min p (0.1\~0.2) 
+
 ## Available notebooks :
 -Run gguf LLM models in TextGen-webui :  <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/Run_any_gguf_model_in_TextGen_webui_v_01_03_2024.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
