@@ -23,9 +23,11 @@ in colab gpu T4 (15Gvram) you can use :
 > but when u need strict and accurate  answers decrease the temp(0.5\~0.7) and increase the min p (0.1\~0.2) 
 
 ## Available notebooks :
--Run gguf LLM models in TextGen-webui :  <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/Run_any_gguf_model_in_TextGen_webui_v_01_03_2024.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+-Run gguf LLM models in TextGen-webui :  <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/Run_any_gguf_model_in_TextGen_webui.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
--Run GPTQ and Exl2 LLM models in TextGen-webui : <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/Run_any_GPTQ_quantized_models_in_TextGen_webui_01-03-2024.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+
+-Run GPTQ and Exl2 LLM models in TextGen-webui : <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/Run_any_GPTQ_quantized_models_in_TextGen_webui.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 ## Getting Started
@@ -33,7 +35,7 @@ in colab gpu T4 (15Gvram) you can use :
 To get started with the LLM Model Runner, follow these steps:
 
 1. Open the Colab notebook in Google Colab by clicking on the "Open in Colab" button at the top of the notebook.
-<a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/Run_any_gguf_model_in_TextGen_webui_v_01_03_2024.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/Run_any_gguf_model_in_TextGen_webui.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 2. Choose The  model that you want from the list .
 
