@@ -1,13 +1,23 @@
-## Run LLM models in  colab using TextGen-webui  :  
+## Run LLM models in colab using TextGen-webui and KoboldCpp :  
 
 This repository contains a Colab notebook  that allows you to run Large Language Models (LLM) models with just one click.
+## Changes : 
+- Add new models and fixes (for textGen notebook)
+- Add new notebook for  koboldcpp <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/awesome_koboldcpp_notebook.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- Openai gpt-oss-20b support:
+  - They both use llama.cpp, and it has supported it since merge  [15091](https://github.com/ggml-org/llama.cpp/pull/15091) yesterday
+  - TextGenwebui support it at v3.9
+  - Koboldcpp will suport it  soon  
 
 ## Available notebooks :
--Run gguf LLM models in TextGen-webui :  <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/Run_any_gguf_model_in_TextGen_webui.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+-Run gguf LLM models in KoboldCpp (recommended⭐⭐⭐,faster):  <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/awesome_koboldcpp_notebook.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+
+-Run gguf LLM models in TextGen-webui(recommended⭐⭐) :  <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/Run_any_gguf_model_in_TextGen_webui.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 
--Run GPTQ and Exl2 LLM models in TextGen-webui : <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/Run_any_GPTQ_quantized_models_in_TextGen_webui.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+-Run GPTQ and Exl2 LLM models in TextGen-webui (not recommended) : <a target="_blank" href="https://colab.research.google.com/github/seyf1elislam/LocalLLM_OneClick_Colab/blob/main/Run_any_GPTQ_quantized_models_in_TextGen_webui.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 
@@ -21,6 +31,13 @@ check those 🤗 huggingface repos :
 
 ## Good models to try :
  you can try these :  
+- [unsloth/gemma-3-12b-it-GGUF](https://huggingface.co/unsloth/gemma-3-12b-it-GGUF) 12B model Q5_K_M / Q4_K_M (⭐🔥) .
+- [unsloth/Qwen3-8B-GGUF](https://huggingface.co/unsloth/Qwen3-8B-GGUF) 8B model Q8_0 / Q6_k (⭐🔥) .
+- [unsloth/gpt-oss-20b-GGUF](https://huggingface.co/unsloth/gpt-oss-20b-GGUF) 20B model Q4_K_M (⭐🔥) .
+- [unsloth/Qwen3-14B-GGUF](https://huggingface.co/unsloth/Qwen3-14B-GGUF) 14B model Q5_K_M / Q4_K_M (⭐🔥) .
+- [unsloth/Qwen3-4B-Instruct-2507-GGUF](https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF) 4B model Q8_0 / Q6_k (⭐🔥) .
+  
+old but gold  : 
 - [QuantFactory/Mistral-Nemo-Instruct-2407-GGUF](https://huggingface.co/QuantFactory/Mistral-Nemo-Instruct-2407-GGUF) 12B model Q5_K_M / Q4_K_M (⭐🔥) .
 - [bartowski/Mistral-Small-Instruct-2409-GGUF](https://huggingface.co/bartowski/Mistral-Small-Instruct-2409-GGUF) this is 22B u can use it 3KM in 15g vram (⭐🔥) .
 - [Meta-Llama-3.1-8B-Instruct-GGUF](https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF) Q8_0 (⭐🔥) .
@@ -69,5 +86,6 @@ To get started with the LLM Model Runner, follow these steps:
 
 All the necessary dependencies will be automatically installed when you run the Colab notebook.
 
-## Thanks <3 
-- [text-generation-webui](https://github.com/oobabooga/text-generation-webui) for their Great Ui 
+## Thanks ❤️ 
+- [llamacpp](https://github.com/ggml-org/llama.cpp)  — the backbone of the open-source LLM community.
+- [text-generation-webui](https://github.com/oobabooga/text-generation-webui) and [KoboldCpp](https://github.com/LostRuins/koboldcpp) for their nice UIs .
